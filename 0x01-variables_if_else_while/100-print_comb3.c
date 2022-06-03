@@ -21,12 +21,11 @@ int main(void)
 
 			if ((number_left == 56) && (number_right == 78))
 			{
-				break;
+			break;
 			}
 
 			putchar(',');
 			putchar (' ');
-
 		}
 
 	}
