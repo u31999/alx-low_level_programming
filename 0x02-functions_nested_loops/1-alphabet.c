@@ -1,13 +1,11 @@
 #include <stdio.h>
-#include "main.h"
-/**
- * main - Enty point
- * print_alphabet - print alphabet lowercase, return void
- *
- * Return: 0
- **/
-int main(void)
+
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+        int letter;
+
+        for(letter = 'a'; letter <= 'z'; letter++){
+                putchar(letter);
+        }
+        putchar('\n');
 }
