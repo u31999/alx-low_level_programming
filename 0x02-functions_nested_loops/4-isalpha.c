@@ -1,16 +1,20 @@
 /**
- * _isalpha: Check if a charcter is alphabetic
- * @c: charcter to be checked
- * Return: if letter 1, else 0
- **/
+ * _isalpha - check for lower case letter
+ * @c : character to check
+ * Return:0 or 1
+ */
 
-int _isalpha(int c) {
+int _isalpha(int c)
+{
 	int i;
 	int j = 'A';
+
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (c == i || c == j) return (1);
+		if (c == i || c == j)
+			return (1);
 		j++;
 	}
+
 	return (0);
 }
