@@ -1,14 +1,16 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
  * print_alphabet - Print alphabet lowecase
  **/
+
 void print_alphabet(void)
 {
 	int letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(letter);
+		_putchar(letter);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
