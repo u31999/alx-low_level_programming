@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry Point
@@ -12,6 +11,12 @@
 
 int main(void)
 {
-	put_char();
+	char *l = "_putchar";
+	while(*l)
+	{
+		_putchar(*l);
+		l++;
+	}
+	_putchar('\n');
 	return (0);
 }
