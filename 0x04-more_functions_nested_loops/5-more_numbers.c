@@ -16,17 +16,16 @@ void more_numbers(void)
 		j = 0;
 		while (j <= 14)
 		{
-			if( j < 10)
+			if (j < 10)
 			{
 				f_num = j;
 			}
-			else {
+			else
+			{
 				f_num = j / 10;
 			}
-			
 
 			_putchar(f_num + '0');
-			
 			if (j > 9)
 			{
 				s_num = j % 10;
