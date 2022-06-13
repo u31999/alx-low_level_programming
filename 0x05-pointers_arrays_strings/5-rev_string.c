@@ -36,5 +36,5 @@ void rev_string(char *s)
 
 		start_c++;
 		end_c--;
-	}	
+	}
 }
